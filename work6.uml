@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>work6</OriginalElement>
+  <nodes>
+    <node x="613.0" y="-22.0">work6.Point</node>
+    <node x="265.0" y="221.0">work6.DekartovaSystem</node>
+    <node x="-260.5" y="-41.0">work6.MathFunction</node>
+    <node x="265.0" y="122.0">work6.PolarSystem</node>
+    <node x="269.0" y="-41.0">work6.CoordinateSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work6.PolarSystem" target="work6.Point" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="360.0" y="104.0" />
+      <point x="613.0" y="104.0" />
+      <point x="-93.0" y="0.0" />
+    </edge>
+    <edge source="work6.MathFunction" target="work6.Point" relationship="CREATE">
+      <point x="0.0" y="63.0" />
+      <point x="-44.0" y="104.0" />
+      <point x="613.0" y="104.0" />
+      <point x="-93.0" y="0.0" />
+    </edge>
+    <edge source="work6.PolarSystem" target="work6.CoordinateSystem" relationship="REALIZATION">
+      <point x="95.0" y="0.0" />
+      <point x="488.0" y="161.0" />
+      <point x="488.0" y="-14.0" />
+      <point x="98.0" y="0.0" />
+    </edge>
+    <edge source="work6.DekartovaSystem" target="work6.CoordinateSystem" relationship="REALIZATION">
+      <point x="95.0" y="0.0" />
+      <point x="488.0" y="260.0" />
+      <point x="488.0" y="-14.0" />
+      <point x="98.0" y="0.0" />
+    </edge>
+    <edge source="work6.MathFunction" target="work6.CoordinateSystem" relationship="TO_ONE">
+      <point x="216.5" y="-36.0" />
+      <point x="-98.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="289.0" y="230.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

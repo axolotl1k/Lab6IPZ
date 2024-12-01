@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"work6","l":"CoordinateSystem"},{"p":"work6","l":"DekartovaSystem"},{"p":"<Unnamed>","l":"Main"},{"p":"work6","l":"MathFunction"},{"p":"work6","l":"Point"},{"p":"work6","l":"PolarSystem"}];updateSearchResults();
